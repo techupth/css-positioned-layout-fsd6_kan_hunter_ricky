@@ -1,1 +1,48 @@
-/* Start coding here */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    text-align: start;
+    padding: 20px;
+    background-color: gray;
+    color: white;
+    font-size: 24px;
+}
+
+.chatroom {
+    display: flex;
+    padding: 20px;
+    height: calc(100vh - 60px);
+    box-sizing: border-box;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 20px;
+    width: 45%;
+}
+
+.message p {
+    margin: 5px 0;
+}
+
+.left {
+    text-align: left;
+    position: relative;
+    float: left;
+    clear: both;
+    justify-content: flex-end;
+}
+
+.right {
+    text-align: left;
+    position: relative;
+    float: right;
+    clear: both;
+}
+
+

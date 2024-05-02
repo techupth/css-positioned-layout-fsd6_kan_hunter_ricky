@@ -2,4 +2,32 @@ body {
   font-family: "Kanit";
 }
 
-/* Start coding here */
+.location {
+  position: absolute;
+  background-color: gray;
+  padding: 3px;
+  bottom: 570px;
+  left: 1200px;
+
+}
+.name {
+  position: absolute;
+  bottom: 310px;
+  right: 1020px;
+  color: white;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.big {
+  display: flex;
+  position: relative;
+}
