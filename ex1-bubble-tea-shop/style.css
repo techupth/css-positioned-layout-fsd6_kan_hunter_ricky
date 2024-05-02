@@ -1,5 +1,35 @@
 body {
   font-family: "Kanit";
+  color: azure;
+  background-color: black;
 }
-
-/* Start coding here */
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  width:510px ;
+  height: 260px;
+  
+}
+.container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.info{
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  background-color: black;
+}
+.tag{
+  background-color:rgb(34, 33, 30,0.5) ;
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

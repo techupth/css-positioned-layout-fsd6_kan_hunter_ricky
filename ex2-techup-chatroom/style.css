@@ -1,1 +1,49 @@
-/* Start coding here */
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(49, 47, 47);
+    color: aliceblue;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.con1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 20px;
+}
+.item{
+    background-color: rgb(20, 226, 20);
+    padding: 10px 60px;
+    border-radius: 50px;
+    margin: 5px;
+}
+.item1{
+ background-color: rgb(184, 184, 169);  
+
+}
+.con2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.item2{
+    background-color: rgb(109, 99, 99);
+    padding: 10px 60px;
+    border-radius: 60px;
+    margin: 5px;
+}
+.x{
+    position: absolute;
+    padding: 4px;
+    top: 35px;
+    right: 5px;
+    border-radius: 50px;
+    background-color:rgb(187, 172, 172);
+}
