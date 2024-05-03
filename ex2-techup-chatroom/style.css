@@ -1,48 +1,69 @@
-body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-}
-
-.header {
-    text-align: start;
-    padding: 20px;
-    background-color: gray;
-    color: white;
-    font-size: 24px;
-}
-
-.chatroom {
-    display: flex;
-    padding: 20px;
-    height: calc(100vh - 60px);
+* {
     box-sizing: border-box;
+    margin: 0;
+}
+.header {
+    background-color: grey;
+    color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 15px;
+    justify-content: flex-start;
 }
 
-.message {
-    padding: 10px;
-    border-radius: 20px;
-    width: 45%;
-}
-
-.message p {
-    margin: 5px 0;
-}
-
-.left {
-    text-align: left;
-    position: relative;
-    float: left;
-    clear: both;
-    justify-content: flex-end;
-}
 
 .right {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+   
+}
+.text-right{
+    background-color: lightblue;
+    border-radius: 30px;
+    margin: 5px 0px;
+    padding: 15px;
+    font-size: 28px;
+    width: 15vw;
     position: relative;
-    float: right;
-    clear: both;
 }
 
 
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+
+}
+
+.text-left {
+    background-color: lightgray;
+    border-radius: 30px;
+    margin: 5px 0px;
+    padding: 15px;
+    font-size: 28px;
+    width: 15vw;
+}
+
+.button-x {
+    position: absolute;
+    background-color: lightpink;
+    border-radius: 50px;
+    top: 3px;
+    right: -7px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-style: italic;
+}

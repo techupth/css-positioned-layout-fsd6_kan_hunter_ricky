@@ -1,33 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Kanit";
-}
-
-.location {
-  position: absolute;
-  background-color: gray;
-  padding: 3px;
-  bottom: 570px;
-  left: 1200px;
-
-}
-.name {
-  position: absolute;
-  bottom: 310px;
-  right: 1020px;
-  color: white;
-  
-}
-
-.container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
+  background-color: black;
 }
 
-.big {
-  display: flex;
+.shop-card{
   position: relative;
+  background-color: white;
+  padding: 8px;
 }
+
+.shop-bg-highlight {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: 5px;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 60%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  z-index: 1;
+  top: 0;
+}
+
+
+.shop-detail {
+  position: absolute;
+  font-size: 26px;
+  color: white;
+  bottom: 12px;
+  left: 15px;
+  z-index: 1;
+}
+
+.shop-location {
+  background-color: grey;
+  color: white;
+  padding: 8px 20px;
+  position: absolute;
+  right: 4px;
+  top: 25px;
+  font-size: 32px;
+
+}
+
+.shop-picture {
+  position: relative;
+
+}
+
+img {
+  border-radius: 5px;
+  margin: 0px;
+}
+
+
